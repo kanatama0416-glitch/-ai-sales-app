@@ -49,7 +49,7 @@ export default function CasesCollection() {
   };
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 w-full max-w-full overflow-x-hidden">
       {/* ヘッダー */}
       <div className="text-center">
         <h1 className="text-2xl font-bold text-gray-900">事例集</h1>
@@ -57,10 +57,10 @@ export default function CasesCollection() {
       </div>
 
       {/* 投稿ボタン - 中央配置・大きめ */}
-      <div className="flex justify-center">
+      <div className="flex justify-center overflow-hidden">
         <button
           onClick={() => setIsModalOpen(true)}
-          className="flex items-center space-x-3 px-8 py-4 bg-vivid-red text-white rounded-xl hover:bg-red-600 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 font-bold text-lg"
+          className="flex items-center space-x-3 px-8 py-4 bg-vivid-red text-white rounded-xl hover:bg-red-600 transition-all shadow-lg hover:shadow-xl md:transform md:hover:scale-105 font-bold text-lg"
         >
           <Plus className="w-6 h-6" />
           <span>投稿</span>
@@ -68,8 +68,8 @@ export default function CasesCollection() {
       </div>
 
       {/* タブ */}
-      <div className="bg-white rounded-xl border border-gray-200 p-1">
-        <div className="flex space-x-2">
+      <div className="bg-white rounded-xl border border-gray-200 p-1 overflow-hidden">
+        <div className="flex space-x-2 w-full">
           <button
             onClick={() => setActiveTab('events')}
             className={`flex-1 px-4 py-3 rounded-lg font-medium transition-colors ${

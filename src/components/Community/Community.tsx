@@ -210,7 +210,7 @@ export default function Community({ reloadKey = 0 }: { reloadKey?: number }) {
   }
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 w-full max-w-full overflow-x-hidden">
 
       {/* 今週の人気事例TOP3（先頭へ移動） */}
       <div className="bg-gradient-to-r from-yellow-50 to-red-50 rounded-xl p-6 border border-yellow-200">

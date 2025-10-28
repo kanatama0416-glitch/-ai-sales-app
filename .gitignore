@@ -24,7 +24,5 @@ dist-ssr
 *.sw?
 .env
 
--ai-sales-app-main/
-n-ai-sales-app-main/n.env.backupn*.zipn.bolt/n.claude/n
-n-ai-sales-app-main/n.env.backupn*.zipn.bolt/n.claude/n
-n-ai-sales-app-main/n.env.backupn*.zipn.bolt/n.claude/n
+# NOTE: Removed accidental nested folder ignore and corrupted lines
+# Keep ignoring typical artifacts only

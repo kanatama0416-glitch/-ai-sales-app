@@ -11,7 +11,7 @@ import Simulation from './components/Simulation/Simulation';
 import Evaluation from './components/Evaluation/Evaluation';
 import Achievements from './components/Achievements/Achievements';
 import Community from './components/Community/Community';
-import Consultation from './components/Consultation/Consultation';
+import Consultation from './components/Consultation/ConsultationClean';
 import Events from './components/Events/Events';
 import Profile from './components/Profile/Profile';
 import CasesCollection from './components/CasesCollection/CasesCollection';
@@ -171,5 +171,4 @@ const renderContent = () => {
 }
 
 export default App;
-
 

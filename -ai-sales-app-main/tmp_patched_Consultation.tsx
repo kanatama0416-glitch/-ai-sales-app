@@ -38,65 +38,65 @@ interface ConsultationHistory {
 const consultationCategories: ConsultationCategory[] = [
   {
     id: 'customer-service',
-    title: '接客スキル相談',
-    description: '声かけ、リピート促進、断られたときの対応など',
+    title: '接客スキル相諁E,
+    description: '声かけ、リピ�Eト俁E��、断られたとき�E対応など',
     icon: Users,
     color: 'text-sky-blue',
     bgColor: 'bg-blue-50 border-blue-200',
-    subcategories: ['声かけのタイミング', 'リピート促進', '断り対応', '初回接客']
+    subcategories: ['声かけのタイミング', 'リピ�Eト俁E��', '断り対忁E, '初回接客']
   },
   {
     id: 'product-situation',
-    title: '商品・シチュエーション別相談',
-    description: 'フィンテック商品、シニア層、時間がない客など',
+    title: '啁E��・シチュエーション別相諁E,
+    description: 'フィンチE��ク啁E��、シニア層、時間がなぁE��など',
     icon: Target,
     color: 'text-success-green',
     bgColor: 'bg-green-50 border-green-200',
-    subcategories: ['フィンテック商品', 'シニア層対応', '時間制約', 'ファミリー層']
+    subcategories: ['フィンチE��ク啁E��', 'シニア層対忁E, '時間制紁E, 'ファミリー層']
   },
   {
     id: 'expression',
-    title: '言い回し・表現相談',
-    description: '言葉づかい、失礼チェック、フレーズ提案',
+    title: '言ぁE��し�E表現相諁E,
+    description: '言葉づかい、失礼チェチE��、フレーズ提桁E,
     icon: MessageSquare,
     color: 'text-sunshine-yellow',
     bgColor: 'bg-yellow-50 border-yellow-200',
-    subcategories: ['敬語チェック', 'フレーズ提案', '失礼回避', '自然な表現']
+    subcategories: ['敬語チェチE��', 'フレーズ提桁E, '失礼回避', '自然な表現']
   },
   {
     id: 'roleplay',
-    title: 'ロールプレイ相談',
-    description: 'AIが顧客役になって対話練習',
+    title: 'ロールプレイ相諁E,
+    description: 'AIが顧客役になって対話練翁E,
     icon: Zap,
     color: 'text-vivid-red',
     bgColor: 'bg-red-50 border-red-200',
-    subcategories: ['対話練習', 'シナリオ練習', '実践トレーニング', 'フィードバック']
+    subcategories: ['対話練翁E, 'シナリオ練翁E, '実践トレーニング', 'フィードバチE��']
   },
   {
     id: 'learning-support',
-    title: '学習支援相談',
+    title: '学習支援相諁E,
     description: 'おすすめ練習シナリオ、事例紹介、個別アドバイス',
     icon: BookOpen,
     color: 'text-purple-600',
     bgColor: 'bg-purple-50 border-purple-200',
-    subcategories: ['学習プラン', '事例紹介', '個別アドバイス', 'スキル診断']
+    subcategories: ['学習�Eラン', '事例紹仁E, '個別アドバイス', 'スキル診断']
   }
 ];
 
 const mockHistory: ConsultationHistory[] = [
   {
     id: '1',
-    category: '接客スキル相談',
+    category: '接客スキル相諁E,
     question: 'アニメイベントでお客様に自然に声をかける方法を教えてください',
-    answer: 'アニメイベントでの声かけは、お客様の興味に寄り添うことが重要です。\n\n【おすすめアプローチ】\n1. 商品への関心を確認：「このフィギュア、とても人気ですよね！」\n2. 共感を示す：「私もこのシリーズ好きなんです」\n3. 自然な提案：「実は、アニメグッズのお買い物でお得になるカードがあるんです」\n\n【具体的なフレーズ例】\n「イベント限定品、素敵な選択ですね！実は、次回のイベントでもお得に使えるカードがあるんですが、ご興味ありますか？」',
+    answer: 'アニメイベントでの声かけは、お客様�E興味に寁E��添ぁE��とが重要です、En\n【おすすめアプローチ】\n1. 啁E��への関忁E��確認：「このフィギュア、とても人気ですよね�E�」\n2. 共感を示す：「私もこ�Eシリーズ好きなんです」\n3. 自然な提案：「実�E、アニメグチE��のお買ぁE��でお得になるカードがあるんです」\n\n【�E体的なフレーズ例】\n「イベント限定品、素敵な選択です�E�E�実�E、次回�Eイベントでもお得に使えるカードがあるんですが、ご興味ありますか�E�、E,
     timestamp: new Date('2024-01-20T14:30:00'),
     rating: 5
   },
   {
     id: '2',
-    category: '言い回し・表現相談',
-    question: '「カードを作りませんか」という言い方が直接的すぎる気がします',
-    answer: 'より自然で柔らかい表現をご提案します。\n\n【改善案】\n❌ 「カードを作りませんか？」\n✅ 「お得な会員サービスがあるんですが、ご案内させていただいてもよろしいですか？」\n\n【その他の自然な表現】\n• 「ポイントが貯まるサービスをご利用いただけますが...」\n• 「次回からもっとお得にお買い物いただける方法があります」\n• 「会員様限定の特典をご紹介できるのですが...」\n\n相手の立場に立った「提案」として伝えることで、押し付けがましさを避けられます。',
+    category: '言ぁE��し�E表現相諁E,
+    question: '「カードを作りませんか」とぁE��言ぁE��が直接皁E��ぎる気がしまぁE,
+    answer: 'より自然で柔らかい表現をご提案します、En\n【改喁E��】\n❁E「カードを作りませんか？」\n✁E「お得な会員サービスがあるんですが、ご案�EさせてぁE��だぁE��もよろしぁE��すか�E�」\n\n【その他�E自然な表現】\n• 「�Eイントが貯まるサービスをご利用ぁE��だけますが...」\n• 「次回からもっとお得にお買ぁE��ぁE��だける方法があります」\n• 「会員様限定�E特典をご紹介できるのですが...」\n\n相手�E立場に立った「提案」として伝えることで、押し付けがましさを避けられます、E,
     timestamp: new Date('2024-01-18T11:15:00'),
     rating: 4
   }
@@ -123,8 +123,7 @@ export default function Consultation() {
 
     setIsLoading(true);
     
-    // AIに相談内容を送信（模擬実装）
-    setTimeout(() => {
+    // AIに相諁E�E容を送信�E�模擬実裁E��E    setTimeout(() => {
       const mockAnswer = generateMockAnswer(selectedCategory.id, question);
       setAnswer(mockAnswer);
       
@@ -144,77 +143,38 @@ export default function Consultation() {
 
   const generateMockAnswer = (categoryId: string, question: string): string => {
     const answers = {
-      'customer-service': `接客スキルについてお答えします。
+      'customer-service': `接客スキルにつぁE��お答えします、E
+【基本アプローチ、E1. お客様�E状況を観察し、E��刁E��タイミングを見計らぁE2. 共感を示しながら自然な会話を始めめE3. お客様�EメリチE��を�E体的に説明すめE
+【�E体的なフレーズ例、E「お忙しぁE��恐れ入ります。実�E、今日のお買ぁE��がもっとお得になる方法があるんです、E
+【関連する練習シナリオ、E• 基本皁E��声かけ練翁E• タイミング判断トレーニング`,
 
-【基本アプローチ】
-1. お客様の状況を観察し、適切なタイミングを見計らう
-2. 共感を示しながら自然な会話を始める
-3. お客様のメリットを具体的に説明する
-
-【具体的なフレーズ例】
-「お忙しい中恐れ入ります。実は、今日のお買い物がもっとお得になる方法があるんです」
-
-【関連する練習シナリオ】
-• 基本的な声かけ練習
-• タイミング判断トレーニング`,
-
-      'product-situation': `商品・シチュエーション別のアドバイスをお伝えします。
-
-【状況分析】
-お客様の属性や購買状況に応じたアプローチが重要です。
-
-【おすすめ手法】
-1. 相手の立場に立った提案
-2. 具体的なメリットの提示
+      'product-situation': `啁E��・シチュエーション別のアドバイスをお伝えします、E
+【状況�E析、Eお客様�E属性めE��買状況に応じたアプローチが重要です、E
+【おすすめ手法、E1. 相手�E立場に立った提桁E2. 具体的なメリチE��の提示
 3. 次回来店時の価値創造
 
-【実践例】
-「${question}」のような場面では、お客様の時間を尊重しつつ、簡潔で魅力的な提案を心がけましょう。`,
+【実践例、E、E{question}」�Eような場面では、お客様�E時間を尊重しつつ、簡潔で魁E��皁E��提案を忁E��けましょぁE��`,
 
-      'expression': `言い回し・表現についてアドバイスします。
+      'expression': `言ぁE��し�E表現につぁE��アドバイスします、E
+【改喁E�Eポイント、E• より自然で親しみめE��ぁE��現を使用
+• 相手�E立場を老E�Eした言葉選び
+• 押し付けがましくなぁE��案方況E
+【推奨フレーズ、E「もしよろしければ、お得な惁E��をご案�EさせてぁE��だけますか�E�、E「次回からもっと便利にお買ぁE��ぁE��だける方法があります、E
+【避けるべき表現、E直接皁E��ぎる勧誘や、断りにくい表現は控えましょぁE��`,
 
-【改善のポイント】
-• より自然で親しみやすい表現を使用
-• 相手の立場を考慮した言葉選び
-• 押し付けがましくない提案方法
+      'roleplay': `ロールプレイ練習を開始します、E
+【練習シナリオ、E私がお客様役を演じます�Eで、実際の接客のように対応してください、E
+【お客様設定、E20代女性、アニメグチE��購入、�E回来庁E
+【シーン開始、E「お会計お願いします。このキーホルダー、可愛いです�E�E�、E
+あなた�E対応をお聞かせください。適刁E��タイミングでカード�Eご案�EをしてみましょぁE��`,
 
-【推奨フレーズ】
-「もしよろしければ、お得な情報をご案内させていただけますか？」
-「次回からもっと便利にお買い物いただける方法があります」
-
-【避けるべき表現】
-直接的すぎる勧誘や、断りにくい表現は控えましょう。`,
-
-      'roleplay': `ロールプレイ練習を開始します。
-
-【練習シナリオ】
-私がお客様役を演じますので、実際の接客のように対応してください。
-
-【お客様設定】
-20代女性、アニメグッズ購入、初回来店
-
-【シーン開始】
-「お会計お願いします。このキーホルダー、可愛いですね！」
-
-あなたの対応をお聞かせください。適切なタイミングでカードのご案内をしてみましょう。`,
-
-      'learning-support': `学習支援についてお答えします。
-
-【おすすめ学習プラン】
-1. 基礎スキル診断で現在のレベルを確認
-2. 弱点分野の集中練習
-3. 実践シミュレーションで応用力向上
-
-【関連事例】
-コミュニティで同様の相談事例を確認できます。
-
-【次のステップ】
-• AIシミュレーションでの実践練習
-• スキル評価での定期的な成長確認
-• コミュニティでの事例共有`
+      'learning-support': `学習支援につぁE��お答えします、E
+【おすすめ学習�Eラン、E1. 基礎スキル診断で現在のレベルを確誁E2. 弱点刁E��の雁E��練翁E3. 実践シミュレーションで応用力向丁E
+【関連事例、Eコミュニティで同様�E相諁E��例を確認できます、E
+【次のスチE��プ、E• AIシミュレーションでの実践練翁E• スキル評価での定期皁E��成長確誁E• コミュニティでの事例�E有`
     };
 
-    return answers[categoryId as keyof typeof answers] || '申し訳ございません。適切な回答を生成できませんでした。もう一度お試しください。';
+    return answers[categoryId as keyof typeof answers] || '申し訳ござぁE��せん。適刁E��回答を生�Eできませんでした。もぁE��度お試しください、E;
   };
 
   const resetConsultation = () => {
@@ -235,8 +195,8 @@ export default function Consultation() {
             <ArrowLeft className="w-5 h-5" />
           </button>
           <div>
-            <h1 className="text-2xl font-bold text-gray-900">相談履歴</h1>
-            <p className="text-gray-600 mt-1">過去の相談内容と回答を確認できます</p>
+            <h1 className="text-2xl font-bold text-gray-900">相諁E��歴</h1>
+            <p className="text-gray-600 mt-1">過去の相諁E�E容と回答を確認できまぁE/p>
           </div>
         </div>
 
@@ -256,7 +216,7 @@ export default function Consultation() {
               </div>
               
               <div className="bg-gray-50 rounded-lg p-4">
-                <h4 className="font-medium text-gray-900 mb-2">AI回答</h4>
+                <h4 className="font-medium text-gray-900 mb-2">AI回筁E/h4>
                 <p className="text-gray-700 whitespace-pre-line">{item.answer}</p>
               </div>
               
@@ -291,21 +251,21 @@ export default function Consultation() {
             <ArrowLeft className="w-5 h-5" />
           </button>
           <div>
-            <h1 className="text-2xl font-bold text-gray-900">AI回答</h1>
+            <h1 className="text-2xl font-bold text-gray-900">AI回筁E/h1>
             <p className="text-gray-600 mt-1">{selectedCategory?.title}</p>
           </div>
         </div>
 
         <div className="bg-white rounded-xl border border-gray-200 p-6">
           <div className="mb-4">
-            <h3 className="font-semibold text-gray-900 mb-2">あなたの相談</h3>
+            <h3 className="font-semibold text-gray-900 mb-2">あなた�E相諁E/h3>
             <p className="text-gray-700 bg-gray-50 rounded-lg p-4">{question}</p>
           </div>
 
           <div className="mb-6">
             <h3 className="font-semibold text-gray-900 mb-2 flex items-center space-x-2">
               <Lightbulb className="w-5 h-5 text-sunshine-yellow" />
-              <span>AI回答</span>
+              <span>AI回筁E/span>
             </h3>
             <div className="bg-blue-50 rounded-lg p-4 border border-blue-200">
               <p className="text-gray-700 whitespace-pre-line">{answer}</p>
@@ -315,16 +275,16 @@ export default function Consultation() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
             <div className="bg-green-50 rounded-lg p-4 border border-green-200">
               <h4 className="font-medium text-success-green mb-2">関連シミュレーション</h4>
-              <p className="text-sm text-gray-700 mb-3">この相談内容に関連する練習シナリオ</p>
+              <p className="text-sm text-gray-700 mb-3">こ�E相諁E�E容に関連する練習シナリオ</p>
               <button className="text-success-green hover:text-emerald-green font-medium text-sm flex items-center space-x-1">
-                <span>練習を開始</span>
+                <span>練習を開姁E/span>
                 <ChevronRight className="w-4 h-4" />
               </button>
             </div>
 
             <div className="bg-yellow-50 rounded-lg p-4 border border-yellow-200">
-              <h4 className="font-medium text-sunshine-yellow mb-2">関連事例</h4>
-              <p className="text-sm text-gray-700 mb-3">コミュニティの類似事例を確認</p>
+              <h4 className="font-medium text-sunshine-yellow mb-2">関連事侁E/h4>
+              <p className="text-sm text-gray-700 mb-3">コミュニティの類似事例を確誁E/p>
               <button className="text-sunshine-yellow hover:text-yellow-600 font-medium text-sm flex items-center space-x-1">
                 <span>事例を見る</span>
                 <ChevronRight className="w-4 h-4" />
@@ -334,7 +294,7 @@ export default function Consultation() {
 
           <div className="flex items-center justify-between pt-4 border-t border-gray-200">
             <div>
-              <p className="text-sm text-gray-600 mb-2">この回答は役に立ちましたか？</p>
+              <p className="text-sm text-gray-600 mb-2">こ�E回答�E役に立ちましたか！E/p>
               <div className="flex space-x-2">
                 {[1, 2, 3, 4, 5].map((rating) => (
                   <button
@@ -351,7 +311,7 @@ export default function Consultation() {
               onClick={resetConsultation}
               className="px-4 py-2 bg-sky-blue text-white rounded-lg hover:bg-blue-600 transition-colors"
             >
-              新しい相談をする
+              新しい相諁E��する
             </button>
           </div>
         </div>
@@ -378,8 +338,7 @@ export default function Consultation() {
         <div className="bg-white rounded-xl border border-gray-200 p-6">
           <div className="mb-6">
             <label className="block text-sm font-medium text-gray-900 mb-3">
-              詳細カテゴリ（任意）
-            </label>
+              詳細カチE��リ�E�任意！E            </label>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
               {selectedCategory.subcategories.map((sub) => (
                 <button
@@ -399,20 +358,19 @@ export default function Consultation() {
 
           <div className="mb-6">
             <label className="block text-sm font-medium text-gray-900 mb-3">
-              相談内容 <span className="text-vivid-red">*</span>
+              相諁E�E容 <span className="text-vivid-red">*</span>
             </label>
             <textarea
               value={question}
               onChange={(e) => setQuestion(e.target.value)}
-              placeholder="具体的な状況や悩みを詳しく教えてください。例：「アニメイベントでお客様に自然に声をかける方法を知りたいです」"
+              placeholder="具体的な状況や悩みを詳しく教えてください。例：「アニメイベントでお客様に自然に声をかける方法を知りたぁE��す、E
               rows={6}
               className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-blue focus:border-transparent resize-none"
               maxLength={1000}
             />
             <div className="flex justify-between items-center mt-2">
               <p className="text-sm text-gray-500">
-                具体的な状況を教えていただくと、より適切な回答ができます
-              </p>
+                具体的な状況を教えてぁE��だくと、より適刁E��回答ができまぁE              </p>
               <span className="text-sm text-gray-400">{question.length}/1000</span>
             </div>
           </div>
@@ -422,8 +380,7 @@ export default function Consultation() {
               onClick={() => setSelectedCategory(null)}
               className="flex-1 px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors"
             >
-              戻る
-            </button>
+              戻めE            </button>
             <button
               onClick={handleSubmitQuestion}
               disabled={!question.trim() || isLoading}
@@ -437,7 +394,7 @@ export default function Consultation() {
               ) : (
                 <>
                   <Send className="w-4 h-4" />
-                  <span>相談する</span>
+                  <span>相諁E��めE/span>
                 </>
               )}
             </button>
@@ -451,8 +408,8 @@ export default function Consultation() {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold text-gray-900">相談コーナー</h1>
-          <p className="text-gray-600 mt-1">口コミに関する悩みや疑問をAIに相談できます</p>
+          <h1 className="text-2xl font-bold text-gray-900">相諁E��ーナ�E</h1>
+          <p className="text-gray-600 mt-1">口コミに関する悩みめE��問をAIに相諁E��きまぁE/p>
         </div>
         
         <button
@@ -460,7 +417,7 @@ export default function Consultation() {
           className="flex items-center space-x-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors"
         >
           <Clock className="w-4 h-4" />
-          <span>相談履歴</span>
+          <span>相諁E��歴</span>
         </button>
       </div>
 
@@ -470,20 +427,25 @@ export default function Consultation() {
             <HelpCircle className="w-6 h-6 text-white" />
           </div>
           <div>
-            <h3 className="font-semibold text-gray-900 mb-2">AIがあなたの相談にお答えします</h3>
+            <h3 className="font-semibold text-gray-900 mb-2">AIがあなた�E相諁E��お答えしまぁE/h3>
             <p className="text-gray-700 text-sm">
-              カテゴリを選択して具体的な相談内容を入力すると、AIが実践的なアドバイスや
-              フレーズ例、関連する練習シナリオを提案します。
-            </p>
+              カチE��リを選択して具体的な相諁E�E容を�E力すると、AIが実践皁E��アドバイスめE              フレーズ例、E��連する練習シナリオを提案します、E            </p>
           </div>
         </div>
       </div>
 
       <div>
-        <h2 className="text-lg font-semibold text-gray-900 mb-4">相談カテゴリを選択</h2>
+        <h2 className="text-lg font-semibold text-gray-900 mb-4">相諁E��チE��リを選抁E/h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {consultationCategories.map((category) => {
             const IconComponent = category.icon;
+            const iconBg = ({
+              'text-sky-blue': 'bg-sky-blue',
+              'text-success-green': 'bg-success-green',
+              'text-sunshine-yellow': 'bg-sunshine-yellow',
+              'text-vivid-red': 'bg-vivid-red',
+              'text-purple-600': 'bg-purple-600',
+            } as Record<string, string>)[category.color] || 'bg-gray-400';
             return (
               <button
                 key={category.id}
@@ -491,13 +453,13 @@ export default function Consultation() {
                 className={`p-6 rounded-xl border-2 transition-all duration-200 text-left hover:shadow-lg group ${category.bgColor}`}
               >
                 <div className="flex items-center space-x-4 mb-4">
-                  <div className={`w-12 h-12 rounded-lg flex items-center justify-center ${category.color.replace('text-', 'bg-').replace('blue', 'sky-blue').replace('green', 'success-green').replace('yellow', 'sunshine-yellow').replace('red', 'vivid-red')}`}>
+                  <div className={`w-12 h-12 rounded-lg flex items-center justify-center ${iconBg}`}>
                     <IconComponent className="w-6 h-6 text-white" />
                   </div>
-                  <ChevronRight className={`w-5 h-5 ${category.color} group-hover:translate-x-1 transition-transform`} />
+                  <ChevronRight className={`w-5 h-5 ${iconBg} group-hover:translate-x-1 transition-transform`} />
                 </div>
                 
-                <h3 className={`text-lg font-semibold mb-2 ${category.color}`}>
+                <h3 className={`text-lg font-semibold mb-2 ${iconBg}`}>
                   {category.title}
                 </h3>
                 <p className="text-gray-600 text-sm mb-4">
@@ -515,8 +477,7 @@ export default function Consultation() {
                   ))}
                   {category.subcategories.length > 3 && (
                     <span className="px-2 py-1 bg-white bg-opacity-70 text-gray-500 text-xs rounded-md">
-                      +{category.subcategories.length - 3}個
-                    </span>
+                      +{category.subcategories.length - 3}倁E                    </span>
                   )}
                 </div>
               </button>
@@ -526,26 +487,27 @@ export default function Consultation() {
       </div>
 
       <div className="bg-white rounded-xl border border-gray-200 p-6">
-        <h3 className="font-semibold text-gray-900 mb-4">よくある相談例</h3>
+        <h3 className="font-semibold text-gray-900 mb-4">よくある相諁E��E/h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="p-4 bg-gray-50 rounded-lg">
-            <h4 className="font-medium text-gray-900 mb-2">「断られた後の対応方法」</h4>
-            <p className="text-sm text-gray-600">お客様に断られた時の自然なフォローアップ方法</p>
+            <h4 className="font-medium text-gray-900 mb-2">「断られた後�E対応方法、E/h4>
+            <p className="text-sm text-gray-600">お客様に断られた時の自然なフォローアチE�E方況E/p>
           </div>
           <div className="p-4 bg-gray-50 rounded-lg">
-            <h4 className="font-medium text-gray-900 mb-2">「忙しそうなお客様への声かけ」</h4>
-            <p className="text-sm text-gray-600">時間がなさそうなお客様への適切なアプローチ</p>
+            <h4 className="font-medium text-gray-900 mb-2">「忙しそうなお客様への声かけ、E/h4>
+            <p className="text-sm text-gray-600">時間がなさそぁE��お客様への適刁E��アプローチE/p>
           </div>
           <div className="p-4 bg-gray-50 rounded-lg">
-            <h4 className="font-medium text-gray-900 mb-2">「シニア層への説明方法」</h4>
-            <p className="text-sm text-gray-600">年配のお客様にも分かりやすい説明テクニック</p>
+            <h4 className="font-medium text-gray-900 mb-2">「シニア層への説明方法、E/h4>
+            <p className="text-sm text-gray-600">年配�Eお客様にも�EかりめE��ぁE��明テクニック</p>
           </div>
           <div className="p-4 bg-gray-50 rounded-lg">
-            <h4 className="font-medium text-gray-900 mb-2">「自然な言い回しの提案」</h4>
-            <p className="text-sm text-gray-600">押し付けがましくない自然な表現方法</p>
+            <h4 className="font-medium text-gray-900 mb-2">「�E然な言ぁE��し�E提案、E/h4>
+            <p className="text-sm text-gray-600">押し付けがましくなぁE�E然な表現方況E/p>
           </div>
         </div>
       </div>
     </div>
   );
 }
+
